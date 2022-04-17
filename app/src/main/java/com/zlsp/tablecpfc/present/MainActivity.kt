@@ -1,7 +1,8 @@
-package com.zlsp.tablecpfc
+package com.zlsp.tablecpfc.present
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.zlsp.tablecpfc.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
