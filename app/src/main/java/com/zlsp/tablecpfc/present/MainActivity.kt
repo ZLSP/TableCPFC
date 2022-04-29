@@ -6,8 +6,10 @@ import androidx.lifecycle.ViewModelProvider
 import com.zlsp.tablecpfc.databinding.ActivityMainBinding
 import com.zlsp.tablecpfc.present.recycler.CategoryListAdapter
 import com.zlsp.tablecpfc.present.recycler.ProductListAdapter
+import javax.inject.Inject
 
 class MainActivity : AppCompatActivity() {
+
     private val binding: ActivityMainBinding by lazy {
         ActivityMainBinding.inflate(layoutInflater)
     }
