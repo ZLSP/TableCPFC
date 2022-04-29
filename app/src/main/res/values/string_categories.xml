@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="c_favorite">Favorites</string>
+    <string name="c_all">All categories</string>
+    <string name="c_veggie">Greens and vegetables</string>
+    <string name="c_fruit">Fruit, dried fruits and berries</string>
+    <string name="c_groat">Flour goods and grain</string>
+    <string name="c_meat">Meat, by-products and poultry</string>
+    <string name="c_fish">Fish and seafood</string>
+    <string name="c_milk">Dairy products</string>
+    <string name="c_mushroom">Mushrooms and legumes</string>
+    <string name="c_nut">Nuts</string>
+    <string name="c_other">Other</string>
+</resources>

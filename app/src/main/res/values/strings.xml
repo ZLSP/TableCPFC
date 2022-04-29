@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">TableCPFC</string>
+    <string name="app_name">Caloric table (CPFC and GI)</string>
+    <string name="column_name">Name</string>
+    <string name="column_weight">W</string>
+    <string name="column_calories">Сal</string>
+    <string name="column_proteins">P</string>
+    <string name="column_fats">F</string>
+    <string name="column_carbs">Car</string>
+    <string name="column_gi">GI</string>
 </resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Таблица калорийности (КБЖУ и ГИ)</string>
+    <string name="column_name">Название</string>
+    <string name="column_weight">Вес</string>
+    <string name="column_calories">К</string>
+    <string name="column_proteins">Б</string>
+    <string name="column_fats">Ж</string>
+    <string name="column_carbs">У</string>
+    <string name="column_gi">ГИ</string>
+</resources>

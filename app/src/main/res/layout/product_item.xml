@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:background="@drawable/table_name"
+        style="@style/itemColumn"
+        tools:ignore="MissingConstraints"
+        android:id="@+id/column_name"
+        android:paddingStart="5dp"
+        app:layout_constraintWidth_percent="0.33"
+        android:gravity="center_vertical"
+        android:text="@string/column_name"
+        app:layout_constraintEnd_toStartOf="@id/column_cal"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:background="@drawable/table_cal"
+        style="@style/itemColumn"
+        tools:ignore="MissingConstraints"
+        android:id="@+id/column_cal"
+        android:text="@string/column_calories"
+        app:layout_constraintEnd_toStartOf="@id/column_p"
+        app:layout_constraintStart_toEndOf="@id/column_name"/>
+
+    <TextView
+        android:background="@drawable/table_p"
+        style="@style/itemColumn"
+        tools:ignore="MissingConstraints"
+        android:id="@+id/column_p"
+        android:text="@string/column_proteins"
+        app:layout_constraintEnd_toStartOf="@id/column_f"
+        app:layout_constraintStart_toEndOf="@id/column_cal"/>
+
+    <TextView
+        android:background="@drawable/table_f"
+        style="@style/itemColumn"
+        tools:ignore="MissingConstraints"
+        android:id="@+id/column_f"
+        android:text="@string/column_fats"
+        app:layout_constraintEnd_toStartOf="@id/column_car"
+        app:layout_constraintStart_toEndOf="@id/column_p"/>
+
+    <TextView
+        android:background="@drawable/table_car"
+        style="@style/itemColumn"
+        tools:ignore="MissingConstraints"
+        android:id="@+id/column_car"
+        android:text="@string/column_carbs"
+        app:layout_constraintEnd_toStartOf="@id/column_gi"
+        app:layout_constraintStart_toEndOf="@id/column_f"/>
+
+    <TextView
+        android:background="@drawable/table_gi"
+        style="@style/itemColumn"
+        tools:ignore="MissingConstraints"
+        android:id="@+id/column_gi"
+        android:text="@string/column_gi"
+        app:layout_constraintEnd_toStartOf="@id/checkbox_favorite_add"
+        app:layout_constraintStart_toEndOf="@id/column_car"/>
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/checkbox_favorite_add"
+        android:layout_width="25dp"
+        android:layout_height="0dp"
+        android:background="@drawable/table_fav"
+        android:button="@drawable/checkbox_style_favorite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/column_gi"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="text_color">#B0B0B0</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_border">#212121</color>
+    <color name="btn_positive_def">#804CAF50</color>
+    <color name="btn_negative_def">#80F44336</color>
+    <color name="favorite_alpha">#40FFD900</color>
+    <color name="del_alpha">#40C22925</color>
+    <color name="name_alpha">#40212121</color>
+    <color name="cal_alpha">#40388E3C</color>
+    <color name="p_alpha">#4038778F</color>
+    <color name="f_alpha">#40A27C40</color>
+    <color name="car_alpha">#40943A69</color>
+    <color name="gi_alpha">#4049388E</color>
+    <color name="w_alpha">#4038588F</color>
+    <color name="bg_light">#BF2E2E2E</color>
+    <color name="grad_center_window">#212121</color>
+    <color name="grad_start_window">#000000</color>
+    <color name="link">#9797FF</color>
+</resources>

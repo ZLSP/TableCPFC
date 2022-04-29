@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
+    <color name="light_green">#46B24B</color>
     <color name="black">#FF000000</color>
+    <color name="gray_border">#989898</color>
+    <color name="gray_svg">#B2989898</color>
+    <color name="text_color">#212121</color>
+    <color name="text_gray">#212121</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="alpha">#00000000</color>
+    <color name="btn_positive_def">#4CAF50</color>
+    <color name="btn_negative_def">#F44336</color>
+    <color name="favorite_alpha">#80FFD900</color>
+    <color name="del_alpha">#80C22925</color>
+    <color name="name_alpha">#B2EFEFEF</color>
+    <color name="cal_alpha">#80388E3C</color>
+    <color name="p_alpha">#8038778F</color>
+    <color name="f_alpha">#80A27C40</color>
+    <color name="car_alpha">#80943A69</color>
+    <color name="gi_alpha">#8049388E</color>
+    <color name="w_alpha">#8038588F</color>
+    <color name="bg_light">#73000000</color>
+    <color name="shadow">#D8000000</color>
+    <color name="grad_center_window">#B0B0B0</color>
+    <color name="grad_start_window">#FFFFFF</color>
+    <color name="link">#0000FF</color>
 </resources>

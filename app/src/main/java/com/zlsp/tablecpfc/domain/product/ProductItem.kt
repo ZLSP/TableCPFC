@@ -1,6 +1,6 @@
 package com.zlsp.tablecpfc.domain.product
 
-import com.zlsp.tablecpfc.domain.CategoryTypes
+import com.zlsp.tablecpfc.data.CategoryTypes
 
 data class ProductItem(
     val name: String,
@@ -15,7 +15,7 @@ data class ProductItem(
     val favorite: Boolean = DEFAULT_FAVORITE
 ) {
     companion object {
-        const val UNDEFINED_ID = -1
+        const val UNDEFINED_ID = 0
         const val DEFAULT_FAVORITE = false
         const val DEFAULT_WEIGHT = 100
     }

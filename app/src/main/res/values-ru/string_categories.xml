@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="c_favorite">Избранное</string>
+    <string name="c_all">Все категории</string>
+    <string name="c_veggie">Зелень и овощи</string>
+    <string name="c_fruit">Фрукты сухофрукты и ягоды</string>
+    <string name="c_groat">Мучные изделия и крупы</string>
+    <string name="c_meat">Мясо, субпродукты и птица</string>
+    <string name="c_fish">Рыба и морепродукты</string>
+    <string name="c_milk">Молочные продукты</string>
+    <string name="c_mushroom">Грибы и бобовые</string>
+    <string name="c_nut">Орехи</string>
+    <string name="c_other">Прочие</string>
+</resources>
