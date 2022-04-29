@@ -2,7 +2,7 @@ package com.zlsp.tablecpfc.domain.category
 
 import androidx.lifecycle.LiveData
 
-class CategoryListUseCases(private val repository: CategoryListRepository) {
+class CategoryListUseCases(val repository: CategoryListRepository) {
     fun getList() : LiveData<List<CategoryItem>> {
         return repository.getList()
     }

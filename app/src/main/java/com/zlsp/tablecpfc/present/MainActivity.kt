@@ -2,26 +2,20 @@ package com.zlsp.tablecpfc.present
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.lifecycle.ViewModelProvider
+import com.zlsp.tablecpfc.data.Component
 import com.zlsp.tablecpfc.databinding.ActivityMainBinding
 import com.zlsp.tablecpfc.present.recycler.CategoryListAdapter
 import com.zlsp.tablecpfc.present.recycler.ProductListAdapter
 
 class MainActivity : AppCompatActivity() {
-    private val binding: ActivityMainBinding by lazy {
-        ActivityMainBinding.inflate(layoutInflater)
-    }
-    private val viewModel: MainViewModel by lazy {
-        ViewModelProvider(this)[MainViewModel::class.java]
-    }
-    private val categoryAdapter: CategoryListAdapter by lazy {
-        CategoryListAdapter()
-    }
-    private val productAdapter: ProductListAdapter by lazy {
-        ProductListAdapter()
-    }
+    lateinit var binding: ActivityMainBinding
+    lateinit var viewModel: MainViewModel
+    lateinit var categoryAdapter: CategoryListAdapter
+    lateinit var productAdapter: ProductListAdapter
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Component().injectActivity(this)
         setContentView(binding.root)
         initRecyclerViews()
         viewModel.productList.observe(this) {
