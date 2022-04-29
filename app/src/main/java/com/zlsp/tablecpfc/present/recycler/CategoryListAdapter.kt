@@ -6,8 +6,9 @@ import androidx.recyclerview.widget.ListAdapter
 import com.zlsp.tablecpfc.R
 import com.zlsp.tablecpfc.domain.category.CategoryItem
 import java.lang.RuntimeException
+import javax.inject.Inject
 
-class CategoryListAdapter: ListAdapter<CategoryItem, CategoryListViewHolder>(CategoryItemCallback()) {
+class CategoryListAdapter @Inject constructor(): ListAdapter<CategoryItem, CategoryListViewHolder>(CategoryItemCallback()) {
 
     var onItemClickListener: ((CategoryItem) -> Unit)? = null
 

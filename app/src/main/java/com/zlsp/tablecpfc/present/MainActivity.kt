@@ -3,6 +3,7 @@ package com.zlsp.tablecpfc.present
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
+import com.zlsp.tablecpfc.data.dag.DaggerComponent
 import com.zlsp.tablecpfc.databinding.ActivityMainBinding
 import com.zlsp.tablecpfc.present.recycler.CategoryListAdapter
 import com.zlsp.tablecpfc.present.recycler.ProductListAdapter
@@ -16,6 +17,7 @@ class MainActivity : AppCompatActivity() {
     private val viewModel: MainViewModel by lazy {
         ViewModelProvider(this)[MainViewModel::class.java]
     }
+//    private val categoryAdapter = DaggerComponent.create().injectActivity()
     private val categoryAdapter: CategoryListAdapter by lazy {
         CategoryListAdapter()
     }
